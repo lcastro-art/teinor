@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: #007BFF;
+}
+
+#form {
+    display: none;
+}
+
+.tarjetas {
+    border: 15px solid black;
+    border-radius: 25px;
+    background-color: #EDF1F5;
+    cursor: pointer;
+}
+
+.tarjetas:hover {
+    background-color: #007BFF;
+}
+
+.nombre2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    /* color: #007BFF; */
+}
+
+.tarjetas:hover>.nombre2 {
+    color: white;
+}
+
+.tarjetas:hover>.any2 {
+    color: white;
+}
