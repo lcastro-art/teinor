@@ -1,10 +1,15 @@
 <?php
+// require_once("config/conexion.php");
+// include "../config/conexion.php";
+
 class Modelo{
     private $Peliculas;
     private $db;
     public function __construct(){
         $this->Peliculas = array();
-        $this->db=new PDO('mysql:host=localhost:3307;dbname=teinor',"root","");
+
+        include("config/conexion.php");
+        $this->db = mysqli_connect($servidor,$usuari,$password,$bbdd);
     }
     public function insertar($sql){
         $resultado = $this->db->query($sql);

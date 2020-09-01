@@ -24,7 +24,6 @@ h1 {
 .nombre2 {
     font-size: 1.5rem;
     font-weight: 700;
-    /* color: #007BFF; */
 }
 
 .tarjetas:hover>.nombre2 {
@@ -37,5 +36,4 @@ h1 {
 
 .ordenar {
     color: white;
-    /* font-weight: 900; */
 }
