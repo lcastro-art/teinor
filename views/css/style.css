@@ -34,3 +34,8 @@ h1 {
 .tarjetas:hover>.any2 {
     color: white;
 }
+
+.ordenar {
+    color: white;
+    /* font-weight: 900; */
+}
